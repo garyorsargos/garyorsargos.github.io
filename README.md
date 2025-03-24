@@ -1,4 +1,4 @@
-# Modern Portfolio Website
+# Gary's Personal Portfolio Site
 
 A modern, responsive portfolio website built with React, TypeScript, and Vite. This project showcases a clean, performant, and maintainable codebase using current web development best practices.
 
