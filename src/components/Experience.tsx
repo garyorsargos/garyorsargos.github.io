@@ -57,7 +57,7 @@ export const Experience = () => {
         'Built test suites for new pages with documented regression suites and success rates in line with company standards',
         'Trained artificial intelligence models for quality assurance verification on the frontend',
         'Worked in an AGILE team to develop and maintain regression testing suites',
-        'Used Postman to analyze API endpoints and create data integrityverification tests',
+        'Used Postman to analyze API endpoints and create data integrity and verification tests',
       ],
     },
     {
