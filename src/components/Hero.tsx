@@ -59,10 +59,10 @@ export const Hero = () => {
               textAlign={['center', 'center', 'left']}
               fontSize={['md', 'lg']}
             >
-              Computer Science major at UCF with a strong academic foundation and hands-on 
-              experience in software development. Passionate about building innovative solutions 
-              across various technologies, from web applications to machine learning. Proven 
-              track record of delivering impactful projects and adapting to new challenges.
+              I've worked on everything from automating testing for global enterprises to 
+              developing secure web apps for special operations forces. Whether it's machine learning, 
+              DevOps, or spinning up full-stack apps, I’m all about delivering real, impactful solutions. 
+              Always curious, always building.
             </Text>
           </MotionBox>
         </VStack>
