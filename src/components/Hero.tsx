@@ -1,7 +1,7 @@
 import { Box, Heading, Text, VStack, Container, Flex } from '@chakra-ui/react'
 import { Divider } from '@chakra-ui/layout'
 import { motion } from 'framer-motion'
-import { TechSphere } from './TechSphere'
+import TechSphere from './TechSphere'
 import { useEffect, useState } from 'react'
 
 const MotionBox = motion(Box)
