@@ -12,7 +12,6 @@ A modern, responsive portfolio website built with React, TypeScript, and Vite. T
 - **Package Manager:** npm
 - **Version Control:** Git
 - **Linting:** ESLint with TypeScript support
-- **Code Formatting:** Prettier
 
 ## 📁 Project Structure
 
