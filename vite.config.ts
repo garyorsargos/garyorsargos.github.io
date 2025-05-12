@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/portfolio/', // This is your repository name
+  base: '/', // Changed from '/portfolio/' to '/' for GitHub Pages root domain
   build: {
     outDir: 'dist',
     sourcemap: true,
