@@ -60,15 +60,21 @@ const ProjectCard = ({ title, description, technologies, link }: ProjectCardProp
 export const Projects = () => {
   const projects = [
     {
-      title: 'CARVER Matrix App',
-      description: 'Developed a full-stack application for US Army Special Operations Command that digitizes target prioritization protocols. Features include user authentication with Keycloak, containerized microservices architecture with Docker, and a modern React frontend with Material UI.',
-      technologies: ['TypeScript', 'Java', 'Docker', 'React', 'Material UI', 'Keycloak', 'PostgreSQL'],
+      title: 'KarmaKit',
+      description: 'Developed a flexible, extensible user reputation and trust system for Node.js applications. Implemented configurable scoring, trust levels, and rate limiting with Redis caching and PostgreSQL persistence. Built a comprehensive RESTful API for karma tracking, event logging, and user history management.',
+      technologies: ['Node.js', 'PostgreSQL', 'Redis', 'RESTful API'],
+      link: 'https://github.com/garyorsargos/karma-kit'
+    },
+    {
+      title: 'CARVER Dashboard',
+      description: 'Led full-stack development of a secure, containerized web app for the U.S. Army Special Operations Command, automating the CARVER protocol to prioritize defense targets. Built scalable backend services in Spring Boot with Redis caching and SQL persistence, enabling fast multi-user access and ranking workflows. Developed an intuitive React frontend for real-time collaboration, saving users hours in session planning and coordination.',
+      technologies: ['Spring Boot', 'Redis', 'SQL', 'Docker', 'React'],
       link: 'https://github.com/garyorsargos/carver-matrix'
     },
     {
       title: 'Pegasus Parking',
-      description: 'Created a user-friendly application to help UCF students optimize their parking experience. Built with a modern tech stack, featuring real-time garage availability, permit-based recommendations, and a public API for campus-wide integration.',
-      technologies: ['React', 'RESTful API', 'Geolocation', 'Database Design'],
+      description: 'Developed a location-aware web and mobile app to help UCF students find valid parking based on their permits. Built RESTful APIs using Express.js to serve real-time parking data from a relational SQL backend. Implemented dynamic filtering and interactive maps in React, enabling quick identification of valid parking zones.',
+      technologies: ['React', 'Express.js', 'SQL'],
       link: 'https://github.com/garyorsargos/pegasus-parking'
     }
   ]

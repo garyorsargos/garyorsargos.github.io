@@ -52,13 +52,24 @@ const ExperienceItem = ({ title, company, periods, description, logo }: Experien
 export const Experience = () => {
   const experiences = [
     {
-      title: 'Software Developer in Test Intern',
+      title: 'Undergraduate Data Researcher',
+      company: 'University of Central Florida, Orlando, FL',
+      periods: ['May 2025 - Present'],
+      description: [
+        'Conducted statistical analyses on solar energy and materials datasets using Python (Seaborn, NumPy, Pandas)',
+        'Created reproducible data workflows and technical documentation using Git, Jupyter, and LaTeX',
+        'Delivered research insights and modeling presentations to academic and industry stakeholders'
+      ],
+      logo: 'ucf-logo.png'
+    },
+    {
+      title: 'Software Engineering/Automation Intern',
       company: 'Hyatt Hotels, Chicago, IL',
       periods: ['June 2024 - August 2024'],
       description: [
-        'Enhanced site reliability by creating over 200 new automated tests for pages and components utilized by hundreds of developer created branches',
-        'Streamlined deployment processes by integrating automated checks and reducing manual testing efforts, maintaining test accuracy above 97%',
-        'Trained and integrated AI models to perform advanced page analysis, extending automated testing capabilities'
+        'Developed and deployed 150+ automated tests for web components and APIs using Java BDD and Selenium headless browsers',
+        'Integrated Zephyr test reporting into Jira for full QA cycle visibility across teams',
+        'Improved release efficiency by automating QA steps in Jenkins pipelines, maintaining over 97% test pass accuracy'
       ],
       logo: 'hyatt-logo.png'
     },
@@ -67,9 +78,9 @@ export const Experience = () => {
       company: 'Hyatt Hotels, Chicago, IL',
       periods: ['June 2023 - August 2023'],
       description: [
-        'Refactored unstable testing suites within an Agile/Scrum environment, increasing test coverage by over 50%',
-        'Reduced technical debt for DevOps by improving testing integration into deployment pipeline',
-        'Utilized Postman to analyze RESTful API endpoints, developing integration suites to verify data integrity and consistency'
+        'Increased automated test coverage by 75% by refactoring legacy test suites (Java, Selenium)',
+        'Led onboarding sessions to upskill manual QA engineers in automation-based testing',
+        'Verified and monitored RESTful API endpoints using Postman and Datadog (GraphQL, NoSQL)'
       ],
       logo: 'hyatt-logo.png'
     },
